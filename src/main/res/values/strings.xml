@@ -1,0 +1,39 @@
+<resources>
+    <string name="app_name">Fund App</string>
+    <string name="sardarians_fund">Sardarians Fund</string>
+    <string name="email">Email</string>
+    <string name="sign_in">Sign in</string>
+    <string name="password">Password</string>
+    <string name="create_an_account">Or Create Account?</string>
+    <string name="name">Name</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="role">Role:</string>
+    <string name="month">Month</string>
+    <string name="you_have_paid_money_till">You have Paid Money till</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="forgot_password"><u>Forgot Password</u>
+    </string>
+    <array name="roles">
+        <item>User</item>
+        <item>Admin</item>
+
+    </array>
+
+    <array name="weeks">
+        <item>Week1</item>
+        <item>Week2</item>
+        <item>Week3</item>
+        <item>Week4</item>
+
+    </array>
+    <string name="title_activity_add_money">AddMoneyActivity</string>
+    <string name="tab_text_1">Tab 1</string>
+    <string name="tab_text_2">Tab 2</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="rs">Rs/</string>
+    <string name="update">Update</string>
+    <string name="payment_per_week">Payment per Week</string>
+</resources>

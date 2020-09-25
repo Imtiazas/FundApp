@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ShowTotalSavings"
+    android:background="@drawable/gradient_new">
+    <include
+
+        layout="@layout/toolbar"
+        android:id="@+id/toolbar"
+        >
+    </include>
+
+    <TextView
+        android:id="@+id/tvShowTotalSavings"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/antic"
+        android:gravity="center"
+        android:text="Rs/ "
+        android:textSize="30sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/toolbar"
+        app:layout_constraintVertical_bias="0.419" />
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

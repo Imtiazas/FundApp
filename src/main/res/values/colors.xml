@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#FEAF39</color>
+    <color name="colorPrimaryDark">#FE9619</color>
+    <color name="colorAccent">#1D1D1D</color>
+    <color name="gr_one">#FE9619</color>
+    <color name="gr_two">#FFAB37</color>
+    <color name="gr_three">#FEAF39</color>
+    <color name="text_color">#1D1D1D</color>
+    <color name="background">#FEFEFE</color>
+    <color name="gr_th">#F5B556</color>
+</resources>

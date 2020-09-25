@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/Total_Savings"
+            android:title="Total Savings"
+            android:icon="@drawable/total_savings_icon"
+            app:showAsAction="never"></item>
+        <item
+            android:id="@+id/showPayments"
+            android:title="See Payments"
+            android:icon="@drawable/show_pay_icon"
+            app:showAsAction="never"></item>
+        <item
+            android:id="@+id/spendings"
+            android:title="Items Purchased"
+            android:icon="@drawable/total_spendings"
+            app:showAsAction="never"></item>
+        <item
+            android:id="@+id/adminPanel"
+            android:title="Admin Panel"
+            android:icon="@drawable/update_account_icon"
+            app:showAsAction="never"></item>
+        <item android:title="Accounts">
+            <menu>
+                <item
+                    android:id="@+id/UpdateProfile"
+                    android:title="Update Profile"
+                    android:icon="@drawable/update_acc_icon"
+                    app:showAsAction="never"></item>
+                <item
+                    android:id="@+id/otherOptions"
+                    android:title="Other Options"
+                    android:icon="@drawable/other_options_icon"
+                    app:showAsAction="never"></item>
+
+                <item
+                    android:id="@+id/logout"
+                    android:title="Logout"
+                    android:icon="@drawable/logout_icon"
+                    app:showAsAction="never"></item>
+            </menu>
+        </item>
+    </group>
+</menu>

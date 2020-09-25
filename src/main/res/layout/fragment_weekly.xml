@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".WeeklyFragment"
+    android:background="@drawable/gradient_new">
+
+
+    <TextView
+        android:id="@+id/wfaddMoneyUName"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/textviewshape"
+        android:gravity="center"
+        android:padding="8dp"
+        android:text="UserNAme"
+        android:textSize="15sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"></TextView>
+
+
+    <Spinner
+        android:id="@+id/wfweeksSpinner"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/gradient_new"
+        android:gravity="center"
+        android:padding="10dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/week"></Spinner>
+
+    <Spinner
+        android:id="@+id/wfmonthsSpinner"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="20dp"
+        android:background="@drawable/gradient_new"
+        android:entries="@array/weeks"
+        android:gravity="center"
+        android:padding="10dp"
+        app:layout_constraintEnd_toStartOf="@+id/wfyearSpinner"
+        app:layout_constraintHorizontal_bias="0.88"
+        app:layout_constraintStart_toEndOf="@+id/wfweeksSpinner"
+        app:layout_constraintTop_toBottomOf="@+id/month"></Spinner>
+
+    <Spinner
+        android:id="@+id/wfyearSpinner"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="16dp"
+        android:background="@drawable/gradient_new"
+        android:entries="@array/weeks"
+        android:gravity="center"
+        android:padding="10dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/year"></Spinner>
+
+    <EditText
+        android:id="@+id/wfaddMoneyrupees"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="36dp"
+        android:background="@drawable/shapenew"
+        android:hint="Enter Amount"
+        android:inputType="number"
+        android:paddingLeft="10dp"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textSize="22sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.488"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/wfmonthsSpinner"></EditText>
+
+    <Button
+        android:id="@+id/wfsubmitPayment"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:background="@drawable/button_shape"
+        android:text="Add Money"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textColor="@color/background"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/wfaddMoneyrupees"></Button>
+
+    <TextView
+        android:id="@+id/money"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:text="Last Money Paid Till"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        android:textSize="20sp"
+        app:layout_constraintTop_toBottomOf="@+id/wfaddMoneyUName" />
+
+    <TextView
+        android:id="@+id/week"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="28dp"
+        android:text="WEEK"
+        app:layout_constraintEnd_toStartOf="@+id/month"
+        app:layout_constraintHorizontal_bias="0.126"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/money" />
+
+    <TextView
+        android:id="@+id/month"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="28dp"
+        android:layout_marginEnd="84dp"
+        android:text="Month"
+        app:layout_constraintEnd_toStartOf="@+id/year"
+        app:layout_constraintTop_toBottomOf="@+id/money" />
+
+    <TextView
+        android:id="@+id/year"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="28dp"
+        android:layout_marginEnd="64dp"
+        android:text="Year"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/money" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:id="@+id/allusersLayout"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:id="@+id/user"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:background="@drawable/shapespinner"
+        android:fontFamily="@font/antic"
+        android:paddingLeft="10dp"
+        android:paddingTop="10dp"
+        android:text="Name"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textSize="22sp">
+
+    </TextView>
+
+</LinearLayout>

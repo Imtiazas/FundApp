@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <group android:checkableBehavior="single">
+        <item android:title="Payemnts">
+            <menu>
+                <item
+                    android:id="@+id/All_users"
+                    android:icon="@drawable/add_money_icon"
+                    android:title="Add Payment"
+                    app:showAsAction="never"></item>
+
+                <item
+                    android:id="@+id/showPayments"
+                    android:icon="@drawable/show_pay_icon"
+                    android:title="See Payments"
+                    app:showAsAction="never"></item>
+                <item
+                    android:id="@+id/updatePaymentRecord"
+                    android:icon="@drawable/update_pay_icon"
+                    android:title="Update Payments"
+                    app:showAsAction="never"></item>
+            </menu>
+        </item>
+        <item android:title="Spendings">
+            <menu>
+                <item
+                    android:id="@+id/spendings"
+                    android:icon="@drawable/total_spendings"
+                    android:title="Item Purchased"
+                    app:showAsAction="never"></item>
+            </menu>
+        </item>
+        <item android:title="Savings">
+            <menu>
+                <item
+                    android:id="@+id/Total_Savings"
+                    android:icon="@drawable/total_savings_icon"
+                    android:title="Total Savings"
+                    app:showAsAction="never"></item>
+            </menu>
+        </item>
+        <item
+            android:id="@+id/settings"
+            android:title="Settings"
+
+            app:showAsAction="never"></item>
+        <item
+            android:id="@+id/adminNotifications"
+            android:title="User Requests"
+
+            app:showAsAction="never"></item>
+        <item android:title="Accounts">
+            <menu>
+                <item
+                    android:id="@+id/UpdateProfile"
+                    android:icon="@drawable/update_acc_icon"
+                    android:title="Update Profile"
+                    app:showAsAction="never"></item>
+                <item
+                    android:id="@+id/otherOptions"
+                    android:icon="@drawable/other_options_icon"
+                    android:title="Other Options"
+                    app:showAsAction="never"></item>
+                <item
+                    android:id="@+id/delUnAuthUsers"
+                    android:icon="@drawable/bin"
+                    android:title="Delete unauthorised user"
+                    app:showAsAction="never"></item>
+                <item
+                    android:id="@+id/logout"
+                    android:icon="@drawable/logout_icon"
+                    android:title="Logout"
+                    app:showAsAction="never"></item>
+            </menu>
+        </item>
+    </group>
+</menu>
